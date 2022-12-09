@@ -36,3 +36,111 @@
     transform: rotate(360deg);
   }
 }
+
+.link {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  text-decoration: none;
+  color: black;
+  
+}
+
+.link p {
+  color: gray;
+  font-size: 20px;
+  text-align: start;
+}
+
+.linkText {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 0 50px;
+}
+
+/* BEER PAGE */
+
+.singleBeer {
+  
+  display: flex;
+  
+  margin: 70px 10px;
+  flex-wrap: nowrap;
+  
+ 
+}
+
+.beerImage img{
+  width: 60px;
+  
+}
+
+.beerText {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  font-size: 10px;
+  margin-left: 20px;
+  
+}
+
+.beerText h2 {
+  color: gray;
+  
+}
+
+
+
+.singleBeerLink {
+  text-decoration: none;
+  color: black;
+}
+
+/* RANDOM PAGE */
+
+.randomBeer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.randomBeerImage img {
+  width: 60px;
+  
+}
+
+.randomBeerName {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: none;
+}
+
+.randomBeerName h2 {
+  color: gainsboro;
+}
+
+.randomBeerTagline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1px;
+}
+
+.randomBeerTagline h3 {
+  color: gray;
+}
+
+.randomBeerDescription {
+  margin: 0px;
+  text-align: start;
+  font-size: 12px;
+}
+
+.randomBeerDescription h4 {
+  color: gray;
+}
